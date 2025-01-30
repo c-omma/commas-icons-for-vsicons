@@ -1,7 +1,182 @@
 {
+    "vsicons.associations.fileDefault.file": { "icon": "default", "format": "png", "useBundledIcons": true },
     "vsicons.associations.folderDefault.folder": null,
-    "vsicons.associations.fileDefault.file": null,
     "vsicons.associations.files": [
+        {
+            "icon": "assembly",
+            "extensions": "['asm', 's']",
+            "languages": "[languages.assembly]",
+            "format": "svg"
+        },
+        {
+            "icon": "audio",
+            "extensions": "['m4p', 'mp3', 'wav']",
+            "format": "svg"
+        },
+        {
+            "icon": "c",
+            "extensions": "[]",
+            "languages": "[languages.c]",
+            "format": "svg"
+        },
+        {
+            "icon": "class",
+            "extensions": "['class']",
+            "format": "svg"
+        },
+        {
+            "icon": "cpp",
+            "extensions": "[]",
+            "languages": "[languages.cpp]",
+            "format": "svg"
+        },
+        {
+            "icon": "cppheader",
+            "extensions": "['hpp', 'hh', 'hxx', 'h++']",
+            "format": "svg"
+        },
+        {
+            "icon": "csharp",
+            "extensions": "['csx']",
+            "languages": "[languages.csharp]",
+            "format": "svg"
+        },
+        {
+            "icon": "css",
+            "extensions": "[]",
+            "languages": "[languages.css]",
+            "format": "svg"
+        },
+        {
+            "icon": "epub",
+            "extensions": "['epub']",
+            "format": "svg"
+        },
+        {
+            "icon": "excel",
+            "extensions": "['xls', 'xlsx', 'xlsm', 'ods', 'fods', 'xlsb']",
+            "languages": "[languages.excel]",
+            "format": "svg"
+        },
+        {
+            "icon": "git",
+            "extensions": "['.gitattributes', '.gitconfig', '.gitignore', '.gitmodules', '.gitkeep', '.git-blame-ignore-revs', '.mailmap', '.issuetracker']",
+            "languages": "[languages.git]",
+            "format": "svg"
+        },
+        {
+            "icon": "groovy",
+            "extensions": "[]",
+            "languages": "[languages.groovy]",
+            "format": "svg"
+        },
+        {
+            "icon": "image",
+            "extensions": "['jpeg', 'jpg', 'gif', 'png', 'bmp', 'tiff', 'heic', 'ico', 'icns', 'webp']",
+            "format": "svg"
+        },
+        {
+            "icon": "html",
+            "extensions": "[]",
+            "languages": "[languages.html]",
+            "format": "svg"
+        },
+        {
+            "icon": "java",
+            "extensions": "[]",
+            "languages": "[languages.java]",
+            "format": "svg"
+        },
+        {
+            "icon": "js",
+            "extensions": "[]",
+            "languages": "[languages.javascript]",
+            "format": "svg"
+        },
+        {
+            "icon": "json",
+            "extensions": "['jsonl', 'ndjson']",
+            "languages": "[languages.json, languages.textmatejson, languages.jsonc, languages.jsonl]",
+            "format": "svg"
+        },
+        {
+            "icon": "license",
+            "extensions": "['enc', 'license', 'lic']",
+            "format": "svg"
+        },
+        {
+            "icon": "license",
+            "extensions": "['license', 'licence', 'copying', 'copying.lesser', 'license-mit', 'license-apache']",
+            "format": "svg"
+        },
+        {
+            "icon": "lua",
+            "extensions": "[]",
+            "languages": "[languages.lua]",
+            "format": "svg"
+        },
+        {
+            "icon": "markdown",
+            "extensions": "['mdown', 'markdown']",
+            "languages": "[languages.markdown]",
+            "format": "svg"
+        },
+        {
+            "icon": "matlab",
+            "extensions": "['fig', 'mex', 'mexn', 'mexrs6', 'mn', 'mum', 'mx', 'mx3', 'rwd', 'slx', 'slddc', 'smv', 'xvc']",
+            "languages": "[languages.matlab]",
+            "format": "svg"
+        },
+        {
+            "icon": "powerpoint",
+            "extensions": "['pot', 'potx', 'potm', 'pps', 'ppsx', 'ppsm', 'ppt', 'pptx', 'pptm', 'pa', 'ppa', 'ppam', 'sldm', 'sldx']",
+            "format": "svg"
+        },
+        {
+            "icon": "python",
+            "extensions": "[]",
+            "languages": "[languages.python]",
+            "format": "svg"
+        },
+        {
+            "icon": "sql",
+            "extensions": "[]",
+            "languages": "[languages.sql]",
+            "format": "svg"
+        },
+        {
+            "icon": "sql",
+            "extensions": "['sqlite', 'sqlite3', 'db3']",
+            "format": "svg"
+        },
+        {
+            "icon": "svg",
+            "extensions": "['svg']",
+            "languages": "[languages.svg]",
+            "format": "svg"
+        },
+        {
+            "icon": "typescript",
+            "extensions": "[]",
+            "languages": "[languages.typescript]",
+            "format": "svg"
+        },
+        {
+            "icon": "video",
+            "extensions": "['3g2', '3gp', 'asf', 'amv', 'avi', 'divx', 'qt', 'f4a', 'f4b', 'f4p', 'f4v', 'flv', 'm2v', 'm4v', 'mkv', 'mk3d', 'mov', 'mp2', 'mp4', 'mpe', 'mpeg', 'mpeg2', 'mpg', 'mpv', 'nsv', 'ogv', 'rm', 'rmvb', 'svi', 'vob', 'webm', 'wmv']",
+            "format": "svg"
+        },
+        {
+            "icon": "word",
+            "extensions": "['doc', 'docx', 'docm', 'dot', 'dotx', 'dotm', 'wll']",
+            "format": "svg"
+        },
+        {
+            "icon": "zip",
+            "extensions": "['zip', 'rar', '7z', 'tar', 'tgz', 'bz', 'gz', 'bzip2', 'xz', 'bz2', 'whl', 'zipx', 'br']",
+            "languages": "[languages.zip]",
+            "format": "svg"
+        }
     ],
     "vsicons.associations.folders": [
     ],
