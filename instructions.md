@@ -1,4 +1,4 @@
-*note:* I am using VSCode on Linux, on Installed mode.
+*note:* I am using VSCode on Linux, in Installed mode.
 
 # A step-by-step guide
 on how to build this from scratch, in the inevitable event that I forget how I did any of it in the first place.
@@ -7,7 +7,7 @@ on how to build this from scratch, in the inevitable event that I forget how I d
 1. install **VSCode**!
 2. install the **vscode-icons** extension in VSCode. (I just searched for it in the Extensions tab.)
 
-    consider reading the vscode-icons documentation on [github](https://github.com/vscode-icons/vscode-icons) to minimally understand what is going on. Focus on the [Fine tuning](https://github.com/vscode-icons/vscode-icons/wiki/FineTuning) and the [Custom Icons](https://github.com/vscode-icons/vscode-icons/wiki/Custom) pages.
+    consider reading the vscode-icons documentation on [github](https://github.com/vscode-icons/vscode-icons) to understand what is happening minimally. Focus on the [Fine tuning](https://github.com/vscode-icons/vscode-icons/wiki/FineTuning) and the [Custom Icons](https://github.com/vscode-icons/vscode-icons/wiki/Custom) pages.
 
 ## The icons
 1. create a repository for your icon files:
@@ -17,7 +17,7 @@ on how to build this from scratch, in the inevitable event that I forget how I d
     $ mkdir vsicons-custom-icons
     ``` 
 2. create your icons! ;)
-3. insert your icons, **correctly named** in the repository you created.
+3. insert your icons, **correctly named** in your created repository.
 
 ### How to name your files
 
