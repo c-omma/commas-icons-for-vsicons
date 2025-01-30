@@ -4,178 +4,198 @@
     "vsicons.associations.files": [
         {
             "icon": "assembly",
-            "extensions": "['asm', 's']",
-            "languages": "[languages.assembly]",
-            "format": "svg"
+            "extensions": ["asm", "s"],
+            "languages": ["languages.assembly"],
+            "format": "png",
+            "extends": "assembly"
         },
         {
             "icon": "audio",
-            "extensions": "['m4p', 'mp3', 'wav']",
-            "format": "svg"
+            "extensions": ["m4p", "mp3", "wav"],
+            "format": "png",
+            "extends": "audio"
+            
         },
         {
             "icon": "c",
-            "extensions": "[]",
-            "languages": "[languages.c]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.c"],
+            "format": "png",
+            "extends": "c"
         },
         {
             "icon": "class",
-            "extensions": "['class']",
-            "format": "svg"
+            "extensions": ["class"],
+            "format": "png",
+            "extends": "class"
         },
         {
             "icon": "cpp",
-            "extensions": "[]",
-            "languages": "[languages.cpp]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.cpp"],
+            "format": "png",
+            "extends": "cpp"
         },
         {
             "icon": "cppheader",
-            "extensions": "['hpp', 'hh', 'hxx', 'h++']",
-            "format": "svg"
+            "extensions": ["hpp", "hh", "hxx", "h++"],
+            "format": "png",
+            "extends": "cppheader"
         },
         {
             "icon": "csharp",
-            "extensions": "['csx']",
-            "languages": "[languages.csharp]",
-            "format": "svg"
+            "extensions": ["csx"],
+            "languages": ["languages.csharp"],
+            "format": "png",
+            "extends": "csharp"
         },
         {
             "icon": "css",
-            "extensions": "[]",
-            "languages": "[languages.css]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.css"],
+            "format": "png",
+            "extends": "css"
         },
         {
             "icon": "epub",
-            "extensions": "['epub']",
-            "format": "svg"
+            "extensions": ["epub"],
+            "format": "png",
+            "extends": "epub"
         },
         {
             "icon": "excel",
-            "extensions": "['xls', 'xlsx', 'xlsm', 'ods', 'fods', 'xlsb']",
-            "languages": "[languages.excel]",
-            "format": "svg"
+            "extensions": ["xls", "xlsx", "xlsm", "ods", "fods", "xlsb"],
+            "languages": ["languages.excel"],
+            "format": "png",
+            "extends": "excel"
         },
         {
             "icon": "git",
-            "extensions": "['.gitattributes', '.gitconfig', '.gitignore', '.gitmodules', '.gitkeep', '.git-blame-ignore-revs', '.mailmap', '.issuetracker']",
-            "languages": "[languages.git]",
-            "format": "svg"
+            "extensions": [".gitattributes", ".gitconfig", ".gitignore", ".gitmodules", ".gitkeep", ".git-blame-ignore-revs", ".mailmap", ".issuetracker"],
+            "languages": ["languages.git"],
+            "format": "png",
+            "extends": "git"
         },
         {
             "icon": "groovy",
-            "extensions": "[]",
-            "languages": "[languages.groovy]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.groovy"],
+            "format": "png",
+            "extends": "groovy"
         },
         {
             "icon": "image",
-            "extensions": "['jpeg', 'jpg', 'gif', 'png', 'bmp', 'tiff', 'heic', 'ico', 'icns', 'webp']",
-            "format": "svg"
+            "extensions": ["jpeg", "jpg", "gif", "png", "bmp", "tiff", "heic", "ico", "icns", "webp"],
+            "format": "png",
+            "extends": "image"
         },
         {
             "icon": "html",
-            "extensions": "[]",
-            "languages": "[languages.html]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.html"],
+            "format": "png",
+            "extends": "html"
         },
         {
             "icon": "java",
-            "extensions": "[]",
-            "languages": "[languages.java]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.java"],
+            "format": "png",
+            "extends": "java"
         },
         {
             "icon": "js",
-            "extensions": "[]",
-            "languages": "[languages.javascript]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.javascript"],
+            "format": "png",
+            "extends": "js"
         },
         {
             "icon": "json",
-            "extensions": "['jsonl', 'ndjson']",
-            "languages": "[languages.json, languages.textmatejson, languages.jsonc, languages.jsonl]",
-            "format": "svg"
-        },
-        {
-            "icon": "license",
-            "extensions": "['enc', 'license', 'lic']",
-            "format": "svg"
-        },
-        {
-            "icon": "license",
-            "extensions": "['license', 'licence', 'copying', 'copying.lesser', 'license-mit', 'license-apache']",
-            "format": "svg"
+            "extensions": ["jsonl", "ndjson"],
+            "languages": ["languages.json, languages.textmatejson, languages.jsonc, languages.jsonl"],
+            "format": "png",
+            "extends": "json"
         },
         {
             "icon": "lua",
-            "extensions": "[]",
-            "languages": "[languages.lua]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.lua"],
+            "format": "png",
+            "extends": "lua"
         },
         {
             "icon": "markdown",
-            "extensions": "['mdown', 'markdown']",
-            "languages": "[languages.markdown]",
-            "format": "svg"
+            "extensions": ["mdown", "markdown"],
+            "languages": ["languages.markdown"],
+            "format": "png",
+            "extends": "markdown"
         },
         {
             "icon": "matlab",
-            "extensions": "['fig', 'mex', 'mexn', 'mexrs6', 'mn', 'mum', 'mx', 'mx3', 'rwd', 'slx', 'slddc', 'smv', 'xvc']",
-            "languages": "[languages.matlab]",
-            "format": "svg"
+            "extensions": ["fig", "mex", "mexn", "mexrs6", "mn", "mum", "mx", "mx3", "rwd", "slx", "slddc", "smv", "xvc"],
+            "languages": ["languages.matlab"],
+            "format": "png",
+            "extends": "matlab"
         },
         {
             "icon": "powerpoint",
-            "extensions": "['pot', 'potx', 'potm', 'pps', 'ppsx', 'ppsm', 'ppt', 'pptx', 'pptm', 'pa', 'ppa', 'ppam', 'sldm', 'sldx']",
-            "format": "svg"
+            "extensions": ["pot", "potx", "potm", "pps", "ppsx", "ppsm", "ppt", "pptx", "pptm", "pa", "ppa", "ppam", "sldm", "sldx"],
+            "format": "png",
+            "extends": "powerpoint"
         },
         {
             "icon": "python",
-            "extensions": "[]",
-            "languages": "[languages.python]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.python"],
+            "format": "png",
+            "extends": "python"
         },
         {
             "icon": "sql",
-            "extensions": "[]",
-            "languages": "[languages.sql]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.sql"],
+            "format": "png",
+            "extends": "sql"
         },
         {
             "icon": "sql",
-            "extensions": "['sqlite', 'sqlite3', 'db3']",
-            "format": "svg"
+            "extensions": ["sqlite", "sqlite3", "db3"],
+            "format": "png",
+            "extends": "sqlite"
         },
         {
             "icon": "svg",
-            "extensions": "['svg']",
-            "languages": "[languages.svg]",
-            "format": "svg"
+            "extensions": ["svg"],
+            "languages": ["languages.svg"],
+            "format": "png",
+            "extends": "svg"
         },
         {
             "icon": "typescript",
-            "extensions": "[]",
-            "languages": "[languages.typescript]",
-            "format": "svg"
+            "extensions": [""],
+            "languages": ["languages.typescript"],
+            "format": "png",
+            "extends": "typescript"
         },
         {
             "icon": "video",
-            "extensions": "['3g2', '3gp', 'asf', 'amv', 'avi', 'divx', 'qt', 'f4a', 'f4b', 'f4p', 'f4v', 'flv', 'm2v', 'm4v', 'mkv', 'mk3d', 'mov', 'mp2', 'mp4', 'mpe', 'mpeg', 'mpeg2', 'mpg', 'mpv', 'nsv', 'ogv', 'rm', 'rmvb', 'svi', 'vob', 'webm', 'wmv']",
-            "format": "svg"
+            "extensions": ["3g2", "3gp", "asf", "amv", "avi", "divx", "qt", "f4a", "f4b", "f4p", "f4v", "flv", "m2v", "m4v", "mkv", "mk3d", "mov", "mp2", "mp4", "mpe", "mpeg", "mpeg2", "mpg", "mpv", "nsv", "ogv", "rm", "rmvb", "svi", "vob", "webm", "wmv"],
+            "format": "png",
+            "extends": "video"
         },
         {
             "icon": "word",
-            "extensions": "['doc', 'docx', 'docm', 'dot', 'dotx', 'dotm', 'wll']",
-            "format": "svg"
+            "extensions": ["doc", "docx", "docm", "dot", "dotx", "dotm", "wll"],
+            "format": "png",
+            "extends": "word"
         },
         {
             "icon": "zip",
-            "extensions": "['zip', 'rar', '7z', 'tar', 'tgz', 'bz', 'gz', 'bzip2', 'xz', 'bz2', 'whl', 'zipx', 'br']",
-            "languages": "[languages.zip]",
-            "format": "svg"
+            "extensions": ["zip", "rar", "7z", "tar", "tgz", "bz", "gz", "bzip2", "xz", "bz2", "whl", "zipx", "br"],
+            "languages": ["languages.zip"],
+            "format": "png",
+            "extends": "zip"
         }
     ],
     "vsicons.associations.folders": [
