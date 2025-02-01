@@ -37,7 +37,7 @@
         },
         {
             "icon": "cheader-icon",
-            "extensions": ["hpp", "hh", "hxx", "h++"],
+            "extensions": ["hpp", "hh", "hxx", "h++", "h"],
             "format": "png",
             "extends": "cppheader"
         },
