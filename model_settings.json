@@ -1,6 +1,6 @@
 {
-    "vsicons.associations.fileDefault.file": { "icon": "default", "format": "png", "useBundledIcons": true },
-    "vsicons.associations.folderDefault.folder": null,
+    "vsicons.associations.folderDefault.folder": { "icon": "letter", "format": "png"},
+    "vsicons.associations.fileDefault.file": { "icon": "default", "format": "png"},
     "vsicons.associations.files": [
         {
             "icon": "assembly-icon",
@@ -158,7 +158,6 @@
             "extends": "zip"
         }
     ],
-    "vsicons.associations.folders": [
-    ],
+    "vsicons.presets.hideExplorerArrows": true,
     "vsicons.presets.foldersAllDefaultIcon": true
 }
