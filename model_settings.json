@@ -3,156 +3,122 @@
     "vsicons.associations.folderDefault.folder": null,
     "vsicons.associations.files": [
         {
-            "icon": "assembly",
+            "icon": "assembly-icon",
             "extensions": ["asm", "s"],
             "languages": ["languages.assembly"],
             "format": "png",
             "extends": "assembly"
         },
         {
-            "icon": "audio",
+            "icon": "audio-icon",
             "extensions": ["m4p", "mp3", "wav"],
             "format": "png",
             "extends": "audio"
-            
         },
         {
-            "icon": "c",
+            "icon": "c-icon",
             "extensions": [""],
             "languages": ["languages.c"],
             "format": "png",
             "extends": "c"
         },
         {
-            "icon": "class",
+            "icon": "class-icon",
             "extensions": ["class"],
             "format": "png",
             "extends": "class"
         },
         {
-            "icon": "cpp",
+            "icon": "cpp-icon",
             "extensions": [""],
             "languages": ["languages.cpp"],
             "format": "png",
             "extends": "cpp"
         },
         {
-            "icon": "cppheader",
+            "icon": "cheader-icon",
             "extensions": ["hpp", "hh", "hxx", "h++"],
             "format": "png",
             "extends": "cppheader"
         },
         {
-            "icon": "csharp",
+            "icon": "csharp-icon",
             "extensions": ["csx"],
             "languages": ["languages.csharp"],
             "format": "png",
             "extends": "csharp"
         },
         {
-            "icon": "css",
+            "icon": "css-icon",
             "extensions": [""],
             "languages": ["languages.css"],
             "format": "png",
             "extends": "css"
         },
         {
-            "icon": "epub",
-            "extensions": ["epub"],
-            "format": "png",
-            "extends": "epub"
-        },
-        {
-            "icon": "excel",
-            "extensions": ["xls", "xlsx", "xlsm", "ods", "fods", "xlsb"],
-            "languages": ["languages.excel"],
-            "format": "png",
-            "extends": "excel"
-        },
-        {
-            "icon": "git",
+            "icon": "git-icon",
             "extensions": [".gitattributes", ".gitconfig", ".gitignore", ".gitmodules", ".gitkeep", ".git-blame-ignore-revs", ".mailmap", ".issuetracker"],
             "languages": ["languages.git"],
             "format": "png",
             "extends": "git"
         },
         {
-            "icon": "groovy",
+            "icon": "groovy-icon",
             "extensions": [""],
             "languages": ["languages.groovy"],
             "format": "png",
             "extends": "groovy"
         },
         {
-            "icon": "image",
+            "icon": "image-icon",
             "extensions": ["jpeg", "jpg", "gif", "png", "bmp", "tiff", "heic", "ico", "icns", "webp"],
             "format": "png",
             "extends": "image"
         },
         {
-            "icon": "html",
+            "icon": "html-icon",
             "extensions": [""],
             "languages": ["languages.html"],
             "format": "png",
             "extends": "html"
         },
         {
-            "icon": "java",
+            "icon": "java-icon",
             "extensions": [""],
             "languages": ["languages.java"],
             "format": "png",
             "extends": "java"
         },
         {
-            "icon": "js",
+            "icon": "javascript-icon",
             "extensions": [""],
             "languages": ["languages.javascript"],
             "format": "png",
             "extends": "js"
         },
         {
-            "icon": "json",
+            "icon": "json-icon",
             "extensions": ["jsonl", "ndjson"],
             "languages": ["languages.json, languages.textmatejson, languages.jsonc, languages.jsonl"],
             "format": "png",
             "extends": "json"
         },
         {
-            "icon": "lua",
-            "extensions": [""],
-            "languages": ["languages.lua"],
-            "format": "png",
-            "extends": "lua"
-        },
-        {
-            "icon": "markdown",
+            "icon": "md-icon",
             "extensions": ["mdown", "markdown"],
             "languages": ["languages.markdown"],
             "format": "png",
             "extends": "markdown"
         },
         {
-            "icon": "matlab",
-            "extensions": ["fig", "mex", "mexn", "mexrs6", "mn", "mum", "mx", "mx3", "rwd", "slx", "slddc", "smv", "xvc"],
-            "languages": ["languages.matlab"],
-            "format": "png",
-            "extends": "matlab"
-        },
-        {
-            "icon": "powerpoint",
-            "extensions": ["pot", "potx", "potm", "pps", "ppsx", "ppsm", "ppt", "pptx", "pptm", "pa", "ppa", "ppam", "sldm", "sldx"],
-            "format": "png",
-            "extends": "powerpoint"
-        },
-        {
-            "icon": "python",
+            "icon": "python-icon",
             "extensions": [""],
             "languages": ["languages.python"],
             "format": "png",
             "extends": "python"
         },
         {
-            "icon": "sql",
+            "icon": "sql-icon",
             "extensions": [""],
             "languages": ["languages.sql"],
             "format": "png",
@@ -165,33 +131,27 @@
             "extends": "sqlite"
         },
         {
-            "icon": "svg",
+            "icon": "svg-icon",
             "extensions": ["svg"],
             "languages": ["languages.svg"],
             "format": "png",
             "extends": "svg"
         },
         {
-            "icon": "typescript",
+            "icon": "typescript-icon",
             "extensions": [""],
             "languages": ["languages.typescript"],
             "format": "png",
             "extends": "typescript"
         },
         {
-            "icon": "video",
-            "extensions": ["3g2", "3gp", "asf", "amv", "avi", "divx", "qt", "f4a", "f4b", "f4p", "f4v", "flv", "m2v", "m4v", "mkv", "mk3d", "mov", "mp2", "mp4", "mpe", "mpeg", "mpeg2", "mpg", "mpv", "nsv", "ogv", "rm", "rmvb", "svi", "vob", "webm", "wmv"],
-            "format": "png",
-            "extends": "video"
-        },
-        {
-            "icon": "word",
-            "extensions": ["doc", "docx", "docm", "dot", "dotx", "dotm", "wll"],
+            "icon": "word-icon",
+            "extensions": ["doc", "docx", "docm", "dot", "dotx", "dotm", "wll", "txt"],
             "format": "png",
             "extends": "word"
         },
         {
-            "icon": "zip",
+            "icon": "zip-icon",
             "extensions": ["zip", "rar", "7z", "tar", "tgz", "bz", "gz", "bzip2", "xz", "bz2", "whl", "zipx", "br"],
             "languages": ["languages.zip"],
             "format": "png",
