@@ -4,7 +4,7 @@
     "vsicons.associations.files": [
         {
             "icon": "assembly-icon",
-            "extensions": ["asm", "s"],
+            "extensions": ["asm", "s", "cfg", "properties", "plist"],
             "languages": ["languages.assembly"],
             "format": "png",
             "extends": "assembly"
@@ -14,6 +14,13 @@
             "extensions": ["m4p", "mp3", "wav"],
             "format": "png",
             "extends": "audio"
+        },
+        {
+            "icon": "bubble",
+            "extensions": [""],
+            "languages": ["languages.yaml"],
+            "format": "png",
+            "extends": "yaml"
         },
         {
             "icon": "c-icon",
@@ -54,6 +61,33 @@
             "languages": ["languages.css"],
             "format": "png",
             "extends": "css"
+        },
+        {
+            "icon": "dart-icon",
+            "extensions": [".dart"],
+            "languages": ["languages.dart"],
+            "format": "png",
+            "extends": "dartlang"
+        },
+        {
+            "icon": "default-icon",
+            "extensions": ["a", "app", "bin","cmo","cmx", "cma", "cmxa", "cmi", "dll", "exe", "hl", "ilk", "lib", "m", "n", "ndll", "o", "obj", "pyc", "pyd", "pyo", "pdb", "scpt", "scptd", "sh", "so"],
+            "format": "png",
+            "extends": "binary"
+        },
+        {
+            "icon": "flutter-icon",
+            "extensions": [".flutter-plugins", ".metadata"],
+            "filename": "true",
+            "format": "png",
+            "extends": "flutter"
+        },
+        {   
+            "icon": "flutter-envelope-icon",
+            "extensions": ["pubspec.lock", "pubspec.yaml", ".packages"],
+            "filename": "true",
+            "format": "png",
+            "extends": "flutter_package"
         },
         {
             "icon": "git-icon",
@@ -111,6 +145,13 @@
             "extends": "markdown"
         },
         {
+            "icon": "php-icon",
+            "extensions": ["php", "gradle"],
+            "languages": ["languages.php", "languages.gradle"],
+            "format": "png",
+            "extends": "markdown"
+        },
+        {
             "icon": "python-icon",
             "extensions": [""],
             "languages": ["languages.python"],
@@ -138,6 +179,14 @@
             "extends": "svg"
         },
         {
+            "icon": "swift-icon",
+            "extensions": ["package.pins"],
+            "filename": "true",
+            "languages": ["languages.swift"],
+            "format": "png",
+            "extends": "swift"
+        },
+        {
             "icon": "typescript-icon",
             "extensions": [""],
             "languages": ["languages.typescript"],
@@ -146,13 +195,13 @@
         },
         {
             "icon": "word-icon",
-            "extensions": ["doc", "docx", "docm", "dot", "dotx", "dotm", "wll", "txt"],
+            "extensions": ["doc", "docx", "docm", "dot", "dotx", "dotm", "wll", "txt", "iml"],
             "format": "png",
             "extends": "word"
         },
         {
             "icon": "zip-icon",
-            "extensions": ["zip", "rar", "7z", "tar", "tgz", "bz", "gz", "bzip2", "xz", "bz2", "whl", "zipx", "br"],
+            "extensions": ["zip", "rar", "7z", "tar", "tgz", "bz", "gz", "bzip2", "xz", "bz2", "whl", "zipx", "br", "jar"],
             "languages": ["languages.zip"],
             "format": "png",
             "extends": "zip"
